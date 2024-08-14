@@ -1,0 +1,181 @@
+/***** Global Variables *****/
+:root {
+    --main-primary-color: black;
+    --main-secondary-color: rgb(216, 169, 67);
+    --main-text-color:white;
+    --main-text-font: Montserratt;
+    --main-btn-font: OpenSans;
+    --extra-small-text: 24pt;
+    --small-text: 28pt;
+    --medium-text:32pt;
+    --medium-plus-text: 34pt;
+    --large-text: 40pt;
+    --extra-large-text: 48pt;
+}
+
+/***** Page Content *****/
+.NetworkBasePage {
+    background-color: var(--main-primary-color);
+    background-image: url(Resources/Network_BasicPage.png);
+}
+
+.NetworkSplashPage {
+    background-color: var(--main-primary-color);
+    background-image: url(Resources/Network_SplashPage.png);
+}
+
+/***** Text Styles *****/
+.RoomHeader {
+    color: white;
+    font-family: var(--main-text-font);
+    font-size: 55vh;
+}
+
+.ExtraSmallText {
+    font-size: var(--extra-small-text);
+}
+
+.SmallText {
+    font-size: var(--small-text);
+}
+.MediumText {
+    font-size: var(--medium-text);
+}
+.LargeText {
+    font-size: var(--large-text);
+}
+.ExtraLargeText {
+    font-size: var(--extra-large-text);
+}
+
+.FixedText {
+    color: white;
+    font-family: Adamina;
+}
+
+/***** Button Styles *****/
+.BtnBase {
+    border-width: 5px;
+    border-radius: 15px;
+    font-family: var(--main-btn-font);
+    font-size: 40vh;
+}
+
+.BasicButton {
+    background-color: rgba(0,0,0,0);
+    border-color: white;
+    color: white;
+}
+
+.BasicButton:pressed {
+    background-color: white;
+    border-color: var(--main-primary-color);
+    color: black;
+}
+
+.BasicButton:value(1) {
+    background-color: white;
+    border-color: var(--main-primary-color);
+    color: black;
+}
+
+.RedButton {
+    background-color: darkred;
+    border-color: white;
+    color: white;
+}
+
+.RedButton:pressed {
+    background-color: red;
+    border-color: white;
+    color: white;
+}
+
+.RedButton:value(1) {
+    background-color: red;
+    border-color: white;
+    color: white;
+}
+
+.GreenButton {
+    background-color: darkgreen;
+    border-color: white;
+    color: white;
+}
+
+.GreenButton:pressed {
+    background-color: lime;
+    border-color: white;
+    color: white;
+}
+
+.GreenButton:value(1) {
+    background-color: lime;
+    border-color: white;
+    color: black;
+}
+
+.BlueButton {
+    background-color: darkblue;
+    border-color: white;
+    color: white;
+}
+
+.BlueButton:pressed {
+    background-color: dodgerblue;
+    border-color: white;
+    color: white;
+}
+
+.BlueButton:value(1) {
+    background-color: dodgerblue;
+    border-color: white;
+    color: black;
+}
+
+.NavButton {
+    background-color: rgba(0,0,0,0);
+    border-width: 0px;
+    border-radius: 0px;
+    color:var(--main-text-color);
+    font-family: var(--main-btn-font);
+    font-size: 25vh;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 5px;
+    margin: 5px;
+}
+
+.SettingsIcon {
+    background-image: url(Resources/icons/Settings_48x48.png);
+    background-size: cover;
+    background-position: 50% 10%;
+}
+
+.SettingsIconLarge {
+    background-image: url(Resources/icons/settings.png);
+    background-size: cover;
+    background-position: 50% 10%;
+}
+
+.PowerIcon {
+    background-image: url(Resources/icons/power-white-48x48.png);
+    background-size: cover;
+    background-position: 50% 10%;
+}
+
+.PowerIconLarge {
+    background-image: url(Resources/icons/power-white-64x64.png);
+    background-size: cover;
+    background-position: 50% 10%;
+}
+
+/***** Border Styling *****/
+.BasicBorder {
+    border-color: var(--main-secondary-color);
+    border-width: 3px;
+    color: var(--main-text-color);
+    font-family: var(--main-text-font);
+    font-size: var(--medium-plus-text);
+    text-align: center;
+}
